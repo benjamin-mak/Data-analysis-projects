@@ -96,7 +96,7 @@ Analysis was done in Excel using Pivot tables and Pivot charts. Here are some of
 - Highest number of units sold - Tires and tubes
 
 ![total_units](Images/Total%20units%20sold.jpg)
-![total_revenue](Images/Total%20revenue.jpg)
+![total_revenue](Images/Total%20revenue.png)
 ![total_profit](Images/Total%20profit.jpg)
 
 - There is a high demand from customers for mountain and road bikes as seen from the revenue and number of units sold. However, it is not that profitable to the business as the profit margin is low
