@@ -31,8 +31,8 @@
 - Dataset contains information on product categories, as well as the revenue, profit, total cost and units sold for each order
 - Information on demographics of customer such as age, country where the order came from and gender are also provided
 - Contains 16 columns and almost 35,000 rows of data
-- The original data is from kaggle at this [link.](https://www.kaggle.com/datasets/thedevastator/analyzing-customer-spending-habits-to-improve-sa) Credit goes to Vineet Bahl for providing the data
-- Raw data can be viewed by clicking on this [link](https://github.com/benjamin-mak/Data-analysis-projects/tree/main/Sales%20analysis%20using%20Excel/Files) and downloading `Raw_data.csv`
+- The original data source is from this [LINK.](https://www.kaggle.com/datasets/thedevastator/analyzing-customer-spending-habits-to-improve-sa) Credit goes to Vineet Bahl for providing the data.
+- Raw data can be viewed by clicking [HERE](https://github.com/benjamin-mak/Data-analysis-projects/tree/main/Sales%20analysis%20using%20Excel/Files) and downloading the file `Raw_data.csv`.
 
 The image below shows a snapshot of the raw data:
 
