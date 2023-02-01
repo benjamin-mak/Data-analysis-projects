@@ -36,7 +36,7 @@
 
 The image below shows a snapshot of the raw data:
 
-![raw_data](Sales%20analysis%20using%20Excel/Images/raw_data.jpg)
+![raw_data](Images/raw_data.jpg)
 
 
 The data was extracted from a .csv file using Powerquery where some cleaning was done, and then loaded into Excel.
@@ -75,7 +75,7 @@ These were the steps for data cleaning:
 
 The image below shows a snapshot of the cleaned data:
 
-![cleaned_data](Sales%20analysis%20using%20Excel/Images/cleaned_data.jpg)
+![cleaned_data](Images/cleaned_data.jpg)
 
 ## Data analysis and findings
 
@@ -87,7 +87,7 @@ Analysis was done in Excel using Pivot tables and Pivot charts. Here are some of
 - Although orders from USA had the highest revenue and second highest total profit, it had the lowest profit margin
 - Split of total number of orders from each respective country is: USA - 52%; UK - 18%; Germany - 15%; France - 15%
 
-![profit_revenue_by_country](Sales%20analysis%20using%20Excel/Images/Profit-revenue%20by%20country.jpg)
+![profit_revenue_by_country](Images/Profit-revenue%20by%20country.jpg)
 
 **2. Sales by product category**
 
@@ -95,9 +95,9 @@ Analysis was done in Excel using Pivot tables and Pivot charts. Here are some of
 - Highest revenue - Mountain bikes
 - Highest number of units sold - Tires and tubes
 
-![total_units](Sales%20analysis%20using%20Excel/Images/Total%20units%20sold.jpg)
-![total_revenue](Sales%20analysis%20using%20Excel/Images/Total%20revenue.jpg)
-![total_profit](Sales%20analysis%20using%20Excel/Images/Total%20profit.jpg)
+![total_units](Images/Total%20units%20sold.jpg)
+![total_revenue](Images/Total%20revenue.jpg)
+![total_profit](Images/Total%20profit.jpg)
 
 - There is a high demand from customers for mountain and road bikes as seen from the revenue and number of units sold. However, it is not that profitable to the business as the profit margin is low
 - Tires and tubes and helmets are better for the business due to its high profit margin and still relatively high demand by customers
@@ -108,22 +108,22 @@ Analysis was done in Excel using Pivot tables and Pivot charts. Here are some of
   - Weekends have the highest number of units sold
   - June and May have the highest number of units sold
 
-![units_sold_month](Sales%20analysis%20using%20Excel/Images/Units%20sold%20month.jpg)
-![units_sold_weekday](Sales%20analysis%20using%20Excel/Images/Units%20sold%20weekday.jpg)
+![units_sold_month](Images/Units%20sold%20month.jpg)
+![units_sold_weekday](Images/Units%20sold%20weekday.jpg)
 
 - In terms of profit
   - Customers tend to spend the most on Tuesdays followed by on weekends
   - Customer tend to spend more during the first half of the year until a peak at June
 
-![profit_month](Sales%20analysis%20using%20Excel/Images/Profit%20month.jpg)
-![profit_weekday](Sales%20analysis%20using%20Excel/Images/Profit%20weekday.jpg)
+![profit_month](Images/Profit%20month.jpg)
+![profit_weekday](Images/Profit%20weekday.jpg)
 
 ## Dashboard
 
 An interactive dashboard was created showing the sales by categories. Additionally there are filters to filter the dashboard by country, month and customer age for further analysis.
 The dashboard can be accessed from this [link](https://github.com/benjamin-mak/Data-analysis-projects/tree/main/Sales%20analysis%20using%20Excel/Files) and downloading `Sales analysis report.xlsx`.
 
-![dashboard](Sales%20analysis%20using%20Excel/Images/Dashboard.png)
+![dashboard](Images/Dashboard.png)
 
 ## Conclusion and recommendations
 
