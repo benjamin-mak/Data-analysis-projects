@@ -23,7 +23,7 @@ An ER diagram was created to show the relationship between the different entitie
   - Application
   - Playstore_data
   - Category
-    - Reviews
+  - Reviews
   - Content_rating
   - Genre
 - Step 2 - Determine the attributes of each entity
