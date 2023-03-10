@@ -32,43 +32,43 @@ An ER diagram was created to show the relationship between the different entitie
   - Application - Content_rating -> one to one
   - Application - Review -> one to many
   - Application - many to many
-    - Application - Playstore_data - one to one
+  - Application - Playstore_data - one to one
 
-![ERD image](ERD.png)
+![ERD image](Images/ERD.png)
 
 #### Database schema
 
 Initially there were 2 tables based on the dataset as shown:
 
-![initial database schema](initial_database_schema.png)
+![initial database schema](Images/Initial%20database%20schema.png)
 
 The tables were then normalised to the 3rd normal form. The resulting database schema is as shown:
 
-![normalised](normalised_database_schema.png)
+![normalised](Images/Normalised%20database%20schema.png)
 
 #### Data cleaning
 
-The data was first converted from .csv to .sql file format using sqlite3, and loaded into Postgresql by running the .sql scripts. Click [here]() to access the .sql files.
+The data was first converted from .csv to .sql file format using sqlite3, and loaded into Postgresql by running the .sql scripts. Click [here](Dataset) to access the .sql files.
 
-The following steps were then carried out to clean the data and create tables according to the database schema. You can view the queries [here.](datapreparation.sql)
+The following steps were then carried out to clean the data and create tables according to the database schema. You can view the queries [here](SQL%20queries) under the file named `Data preparation.sql`
 
 - Create relevant tables according to the database schema
-  ○ Copy values from original 2 tables
-  ○ Delete any duplicates from "App" column
-  ○ Add primary keys and foreign keys to connect the tables
-  ○ Rename columns if necessary
+  - Copy values from original 2 tables
+  - Delete any duplicates from "App" column
+  - Add primary keys and foreign keys to connect the tables
+  - Rename columns if necessary
 - Do some cleaning to transform the data to fit constraints
-  ○ Change the date format
-  ○ Remove '$' symbol from price column in application table
+  - Change the date format
+  - Remove '$' symbol from price column in application table
 - Add constraints to the columns
 
 ## Analysis
 
-To determine the best type of application, it will be based on 4 variables: Number of apps, number of reviews, rating, and number of downloads. There will be 2 factors in consideration for the type the application: category and pricing type. All the SQL queries can be viewed [here.](analysis.sql)
+To determine the best type of application, it will be based on 4 variables: Number of apps, number of reviews, rating, and number of downloads. There will be 2 factors in consideration for the type the application: category and pricing type. All the SQL queries can be viewed [here](SQL%20queries) under the file named `Analysis.sql`.
 
 The chart below shows the top 10 categories by total number of reviews. It splits the review sentiment by positive, negative and neutral.
 
-![chart](chart.png)
+![chart](Images/chart.png)
 
 ## Conclusion
 
